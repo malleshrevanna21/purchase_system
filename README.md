@@ -1,25 +1,25 @@
-# 🏭 Purchase System (MRP Workflow)
+# Purchase System (MRP Workflow)
 
-## 📌 Project Overview
+## Project Overview
 
-This project is a role-based Material Requirement Planning (MRP) system built using Spring Boot, Thymeleaf, and MySQL. It simulates real-world workflow between Production, Warehouse, Purchase, and Finance departments.
-
----
-
-## 🚀 Features
-
-* 🔐 Role-based login system
-* 🏭 Production creates material requirements
-* 📦 Warehouse verifies available stock
-* 🧾 Automatic shortage calculation
-* 🛒 Purchase generates procurement requests
-* 💰 Finance approves/rejects requests
-* 🧠 Smart logic to avoid unnecessary purchases
-* 📊 Audit tracking (who performed each action)
+This project is a role-based Material Requirement Planning (MRP) system built using Spring Boot, Thymeleaf, and MySQL. It simulates a real-world enterprise workflow across Production, Warehouse, Purchase, and Finance departments.
 
 ---
 
-## 🧱 Tech Stack
+## Features
+
+* Role-based login system
+* Production creates material requirements
+* Warehouse verifies available stock
+* Automatic shortage calculation
+* Purchase generates procurement requests
+* Finance approves or rejects requests
+* Business logic to avoid unnecessary purchases
+* Audit tracking to record user actions at each stage
+
+---
+
+## Tech Stack
 
 * Java 21
 * Spring Boot
@@ -29,7 +29,7 @@ This project is a role-based Material Requirement Planning (MRP) system built us
 
 ---
 
-## 🗄️ Database Tables
+## Database Tables
 
 * Users
 * Material
@@ -37,22 +37,32 @@ This project is a role-based Material Requirement Planning (MRP) system built us
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 Production → Warehouse → Purchase → Finance
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
-2. Create MySQL database: `purchase_system`
-3. Update `application.properties`
-4. Run Spring Boot application
-5. Open: http://localhost:8080
+2. Create MySQL database: purchase_system
+3. Update application.properties with your database credentials
+4. Run the Spring Boot application
+5. Open browser and go to: http://localhost:8080
 
 ---
 
-## 👨‍💻 Author
+## Project Highlights
+
+* Implemented role-based workflow system
+* Designed relational database with multiple foreign key mappings
+* Applied conditional logic for stock validation and procurement
+* Built audit tracking for user actions across departments
+* Developed dynamic UI using Thymeleaf
+
+---
+
+## Author
 
 Dars
