@@ -1,4 +1,4 @@
-# Purchase System (MRP Workflow)
+<img width="2444" height="1936" alt="image" src="https://github.com/user-attachments/assets/94c3ee37-caef-4451-96db-48b59aae4948" /># Purchase System (MRP Workflow)
 
 ## Project Overview
 
@@ -62,6 +62,11 @@ Production → Warehouse → Purchase → Finance
 * Developed dynamic UI using Thymeleaf
 
 ---
+
+## ER Diagram
+
+<img width="591" height="464" alt="er-diagram" src="https://github.com/user-attachments/assets/7f704dc9-276d-4bb8-bffd-48e22ca2ca37" />
+
 
 ## Author
 
