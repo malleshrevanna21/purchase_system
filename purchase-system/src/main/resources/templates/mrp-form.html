@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Create MRP</title>
+</head>
+<body>
+
+<h2>Create MRP</h2>
+
+<form action="/mrp/save" method="post">
+
+    Order ID: <input type="number" name="orderId"><br><br>
+
+    Material: <input type="text" name="material"><br><br>
+
+    Required Quantity: <input type="number" name="requiredQuantity"><br><br>
+
+    Available Stock: <input type="number" name="availableStock"><br><br>
+
+    Created By (User ID): <input type="number" name="createdBy"><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
