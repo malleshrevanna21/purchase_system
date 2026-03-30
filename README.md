@@ -1,4 +1,4 @@
-<img width="2444" height="1936" alt="image" src="https://github.com/user-attachments/assets/94c3ee37-caef-4451-96db-48b59aae4948" /># Purchase System (MRP Workflow)
+# Purchase System (MRP Workflow)
 
 ## Project Overview
 
